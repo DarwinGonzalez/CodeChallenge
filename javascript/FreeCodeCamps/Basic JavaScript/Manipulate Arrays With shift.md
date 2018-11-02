@@ -15,7 +15,7 @@ That's where `.shift()` comes in. It works just like `.pop()`, except it
 ```javascript
 // Example
 var ourArray = ["Stimpson", "J", ["cat"]];
-removedFromOurArray = ourArray.shift();
+var removedFromOurArray = ourArray.shift();
 // removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
 
 // Setup
